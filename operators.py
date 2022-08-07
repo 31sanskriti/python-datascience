@@ -4,7 +4,7 @@ b=8
 print(a + b)
 print (a - b)
 print (a * b)
-print (a / b) #float division
+print (a / b)  #float division
 print (a // b) # integer division (quotient)
 print (a % b)  # remainder
 print (a ** b) # exponent
