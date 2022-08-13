@@ -1,7 +1,7 @@
 import pgzrun 
 
-  height = 500 
-  width = 500
+height = 500 
+width = 500
 
 thumb = Actor('thumb1', pos = (200,200))
 
