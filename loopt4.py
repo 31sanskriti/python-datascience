@@ -5,8 +5,11 @@ bgcolor('black')
 fillcolor('pink')
 begin_fill()
 for i in range (8):
+    #penup()
     forward(150)
     left(360/8)
+    #pendown()
+    
 
     for i in range (8):
         forward(40)
@@ -15,6 +18,10 @@ for i in range (8):
         for i in range (8):
           forward(50)
           left(360/8)
+          dot (6)
+          #write(i)
+
+    
 
 end_fill()
 
