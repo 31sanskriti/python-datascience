@@ -40,7 +40,7 @@ for i in range (6,0,-1):
 #right aligment
 for i in range (1,6):
     print((i * 'V').ljust(15))
-    print((i * 'V').rjust(15))
+    print((i * 'M').rjust(15))
 
 
 for i in range (1,15,2):
