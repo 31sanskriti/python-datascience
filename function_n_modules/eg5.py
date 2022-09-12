@@ -13,14 +13,19 @@ print(word_counter('welcome to the code of python'))
 print(word_counter('hello to my world of coding'))
 
 #area 
-#1
+#1 direct
 print (area(10,10))
 
-#2
+#2 user input
 a = int(input('enter length :'))
 b = int(input('enter breadth:'))
 out = area(a,b)
-print(out)
+print('area =>' , out)
+
+#3 shorter user input 
+out= area(int(input('length:')),int(input('breath:')))
+print('area =>', out)
+
 
 
 
