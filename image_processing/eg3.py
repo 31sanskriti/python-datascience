@@ -14,9 +14,8 @@ im2 =Image.open(r'C:\Users\91926\Downloads\mohammad-mardani-6VpFnMxhcHs-unsplash
 #im.filter(ImageFilter.MedianFilter(8)).show() #highlight greys 
 #im.filter(ImageFilter.GaussianBlur(8)).show()
 
-
-eim = ImageEnhance.color(im)
-for i in range(-10,11,12):
+eim = ImageEnhance.Color(im)
+for i in range(-10,11,2):
     eim.enhance(i).show()
 
 imc = im.copy()
