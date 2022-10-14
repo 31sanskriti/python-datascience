@@ -1,4 +1,4 @@
-import pgzrun  #library import
+import pyzrun  #library import
 
 height = 500
 width = 600
